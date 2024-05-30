@@ -1,0 +1,140 @@
+{
+    padding :0;
+    margin :0;
+}
+body{
+    width: 99%;
+    height: 200;
+    background-image:url(background.jpg) ;
+    background-size: cover;
+
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:80px;
+
+}
+.logo{
+    font-size: 40px;
+    color:orange;
+}
+.nav{
+    position: relative;
+    left:-180px;
+
+}
+a{
+    padding:5px 15px;
+    color:orange;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(247, 247, 247);
+    text-decoration: underline;
+    text-underline-position:under ;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding:5px 20px;
+}
+.heading{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url('food(1).jpg') ;
+    background-size: cover;
+    border-radius:400px;
+    display:flex;
+    justify-content: center;
+   
+
+}
+.right::before{
+    width: 420px;
+    height:420px;
+    border:2px solid white;
+    context:'none';
+    position:absolute;
+    border-radiuds:430px;
+    padding: 10px;
+
+}
+.left p:nth-child(1){
+    color: rgb(0, 0, 0);
+    font-size:65px;
+    letter-spacing: 1px;
+    font-style: italic;
+    
+
+}
+.left h1{
+    font-size: 50px;
+    color:rgb(14, 13, 13);
+
+}
+.left p:nth-child(3){
+    color:orange;
+    font-size: 50px;
+    font-style: italic;
+
+}
+.left button{
+    width:70px;
+    height:50px;
+    font-size: 10px;
+    border-radius:50px;
+    border: 2px solid orange;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+
+}
+.SocialMedia{
+    position:absolute;
+    right:0;
+    /* left:0; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 115px;
+    background-color: white;
+    font-size: 25px;
+
+
+}
+.SocialMedia i:hover{
+    color:orange;
+}
+#food1,#food2{
+    background-size: cover;
+    width:100px;
+    height:100px;
+    border-radius: 100px;
+    margin:0px 20px;
+
+}
+#food1{
+    background-image: url('food\ \(1\).jpg');
+
+}
+#food2{
+    background-image: url('food.jpg');
+    
+}
+.menu{
+    display:flex;
+    margin:0px 100px;
+}
